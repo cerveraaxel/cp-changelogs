@@ -1,5 +1,5 @@
 # cp-changelogs
-View the cPanel changelogs for specific build versions from the command line
+REST API to view the cPanel changelogs for specific build versions from the command line
 
 Simply specify the full cPanel version with or without the "parent" version build (11.102.0.4 or 102.0.4).
 
