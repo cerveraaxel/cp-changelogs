@@ -78,13 +78,6 @@ func (r *Results) indexPlace(fullVersion string) (int, error) {
 }
 
 // Struct holding the final data that is returned in the http response
-/*
-type Output struct {
-	Version string
-	Date    string
-	Cases   []string
-}
-*/
 type Output struct {
 	Version string         `json:"Version"`
 	Details VersionDetails `json:"Details"`
