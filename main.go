@@ -18,12 +18,12 @@ for which you would like to receive changelogs for.
 
 Basic usage:
 
-curl api.cpanel.axelcervera.com/11.102.0.5
+curl cp-changelogs.axelcervera.com/11.102.0.5
 
 
 Using the "parent" version value is optional:
 
-curl api.cpanel.axelververa.com/102.0.5
+curl cp-changelogs.axelcervera.com/102.0.5
 
 `
 
