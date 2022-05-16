@@ -45,10 +45,10 @@ for which you would like to receive changelogs for.
 
 Basic usage:
 
-curl localhost:8080/11.102.0.5
+curl cp-changelogs.axelcervera.com:8080/11.102.0.5
 
 
 Using the "parent" version value is optional:
 
-curl localhost:8080/102.0.5
+curl cp-changelogs.axelcervera.com:8080/102.0.5
 ```
