@@ -6,7 +6,7 @@ Simply specify the full cPanel version with or without the "parent" version buil
 Example:
 
 ```
-[root ~]# curl localhost:8080/11.102.0.4
+[root ~]# curl cp-changelogs.axelcervera.com/11.102.0.4
 {
   "Version": "102.0.4",
   "Details": {
@@ -35,7 +35,7 @@ Example:
 If nothing is passed, a helper usage message is returned.
 
 ```
-[root ~]# curl localhost:8080/
+[root ~]# curl cp-changelogs.axelcervera.com/
 
 cPanel changelogs API:
 
@@ -45,10 +45,10 @@ for which you would like to receive changelogs for.
 
 Basic usage:
 
-curl cp-changelogs.axelcervera.com:8080/11.102.0.5
+curl cp-changelogs.axelcervera.com/11.102.0.5
 
 
 Using the "parent" version value is optional:
 
-curl cp-changelogs.axelcervera.com:8080/102.0.5
+curl cp-changelogs.axelcervera.com/102.0.5
 ```
